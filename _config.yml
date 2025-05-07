@@ -1,0 +1,23 @@
+title: macqua.io | Michael Acquaviva
+
+email: michael@maqua.io
+github_username:  mikeacquaviva
+linkedin_username:  michael-acquaviva
+
+description: > 
+  Engineering work and research by Michael Acquaviva.
+
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://mikeacquaviva.github.io"
+
+profile_image: /assets/images/profile.jpg
+
+header_pages:
+  - projects.markdown
+  - resume.markdown
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
