@@ -1,6 +1,6 @@
 title: macqua.io | Michael Acquaviva
 
-email: michael@maqua.io
+#email: michael@maqua.io
 github_username:  mikeacquaviva
 linkedin_username:  michael-acquaviva
 
@@ -21,3 +21,4 @@ header_pages:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
