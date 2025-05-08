@@ -107,7 +107,7 @@ Learn more about what I’ve been building — featured in:
     <a href="/projects/autoronto">
       <img src="/assets/images/autoronto.png" alt="Self-Driving Car" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </a>
-    <h3 style="margin-top: 0.75rem;"><a href="/projects/raytracing" style="text-decoration: none; color: black;">Electrical System for an Autonomus Car</a></h3>
+    <h3 style="margin-top: 0.75rem;"><a href="/projects/autoronto" style="text-decoration: none; color: black;">Electrical System for an Autonomus Car</a></h3>
     <p>A battery-management system, CAN network controller, buck-boost converter, and server power supply for an experimental self-driving car.</p>
   </div>
 

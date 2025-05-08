@@ -1,17 +1,86 @@
-<header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-  
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+
+    <div class="nav-container">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
       <nav class="site-nav">
-        <div class="trigger">
-          {% for my_page in site.header_pages %}
-            {% assign page = site.pages | where: "path", my_page | first %}
-            {% if page.title %}
-              <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
+        {% for my_page in site.header_pages %}
+          {% assign page = site.pages | where: "path", my_page | first %}
+          {% if page.title %}
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
       </nav>
     </div>
-  </header>
+  </div>
+</header>
+
+<style>
+  /* Base layout (desktop and mobile shared) */
+  .site-header .wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   
+  .nav-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+  }
+  
+  /* Hide checkbox */
+  .menu-toggle {
+    display: none;
+  }
+  
+  /* Hide hamburger by default (show on mobile later) */
+  .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Nav default (desktop) */
+  .site-nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* MOBILE OVERRIDES */
+  @media (max-width: 768px) {
+    .site-header .wrapper {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .site-nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 1rem;
+      flex-direction: column;
+      gap: 0.5rem;
+      background: white;
+      padding: 1rem;
+      border: 1px solid #eee;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+  
+    .menu-toggle:checked + .hamburger + .site-nav {
+      display: flex;
+    }
+  }
+  </style>

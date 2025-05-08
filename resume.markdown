@@ -18,6 +18,7 @@ Toronto, Canada | *Feb 2024 – Present*
 - Led the technical efforts to raise 375,000 CAD in grant funding from the Canadian DnD and 175,000 CAD in pre-seed rounds
 - Oversaw patent filings and developed the IP protection strategy in collaboration with legal counsel
 - Featured in the <a href="https://www.wsj.com/tech/antidrone-tech-competition-college-students-4765a6ed">Wall Street Journal</a>, the <a href="https://www.economist.com/science-and-technology/2025/02/05/fine-tuned-acoustic-waves-can-knock-drones-out-of-the-sky">Economist</a>, and <a href="https://www.youtube.com/watch?v=L_lGzoCzHLo">CBC</a>
+- Check out my work <a href="/projects/prandtl">here</a>
 
 
 **Analog Devices Inc.** — *IC Design Engineer*  
