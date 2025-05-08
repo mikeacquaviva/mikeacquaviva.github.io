@@ -61,6 +61,15 @@ permalink: /projects/
     <p>A physics-informed generative adversarial network to accelerate ray tracing for the modelling of indoor RF and microwave signal propagation.</p>
   </div>
 
+  <!-- Pong on an FPGA -->
+  <div style="max-width: 320px; text-align: center;">
+    <a href="/projects/pong">
+      <img src="/assets/images/pong.png" alt="FPGA-Pong" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </a>
+    <h3 style="margin-top: 0.75rem;"><a href="/projects/pong" style="text-decoration: none; color: black;">Pong on a Xilinx FPGA</a></h3>
+    <p>The classic Pong game, implemented as single- or dual-player, in hardware, on a Nexys 4 DDR FPGA board.</p>
+  </div>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
