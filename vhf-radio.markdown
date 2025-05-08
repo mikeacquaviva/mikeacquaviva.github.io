@@ -4,7 +4,7 @@ title: VHF Radio and Antenna
 permalink: /projects/vhf-radio/
 ---
 
-This project focused on building and characterizing a VHF-band antenna system and low-noise front-end radio for 144–148 MHz communications. We constructed and tested both a half-wave dipole and a Yagi-Uda directional antenna, validating their electrical performance using a vector network analyzer (VNA).
+This project focused on building and characterizing a VHF-band antenna system and low-noise front-end radio. We constructed and tested both a half-wave dipole and a Yagi-Uda directional antenna, validating their electrical performance using a vector network analyzer (VNA).
 
 <div style="max-width: 400px; text-align: center; margin: 2rem auto;">
   <img src="/assets/images/yagi_photo.png" alt="Yagi-Uda antenna photo" style="width: 100%; max-width: 600px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">

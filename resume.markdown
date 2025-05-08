@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-You can also [download a PDF copy](/assets/docs/Michael_Acquaviva_Resume_April_2024.pdf) of my resume.
+You can also [download a PDF copy](/assets/Acquaviva-Resume-2025.pdf) of my resume.
 
 <hr style="margin-top: 2.5rem; margin-bottom: 1.5rem;">
 
